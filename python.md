@@ -8,11 +8,11 @@ Use 4 spaces per indentation level.
 
 ### Naming conventions
 
-variable : lowercase, underscores can be used to improve readability  
-function name : lowercase, underscores can be used to improve readability  
-class name : use CapWords convention  
-method name : lowercase, underscores can be used to improve readability  
-module name : short lowercase name, use of underscores is discouraged  
+* variable : lowercase, underscores can be used to improve readability  
+* function name : lowercase, underscores can be used to improve readability  
+* class name : use CapWords convention  
+* method name : lowercase, underscores can be used to improve readability  
+* module name : short lowercase name, use of underscores is discouraged  
 
 
 ### Whitespace in expressions and statements
