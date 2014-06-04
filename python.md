@@ -15,6 +15,19 @@ method name : lowercase, underscores can be used to improve readability
 module name : short lowercase name, use of underscores is discouraged  
 
 
+### Whitespace in expressions and statements
+
+
+One space around an assignement or other operator
+```
+x = 1
+if x == 4:
+```
+
+One space after a colon
+```
+def test(self, name):
+```
 
 ### Comments
 
