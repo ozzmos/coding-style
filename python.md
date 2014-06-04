@@ -12,19 +12,19 @@ Use 4 spaces per indentation level.
 ```
 firstname = "Christophe"
 ```
-**function name** : lowercase, underscores can be used to improve readability  
+**function** : lowercase, underscores can be used to improve readability  
 ```
 def show_firstname():
 ```
-**class name** : use CapWords convention  
+**class** : use CapWords convention  
 ```
 class UserTest(object):
 ```
-**method name** : lowercase, underscores can be used to improve readability  
+**method** : lowercase, underscores can be used to improve readability  
 ```
 def create_user(self):
 ```
-**module name** : short lowercase name, use of underscores is discouraged  
+**module** : short lowercase name, use of underscores is discouraged  
 ```
 import busconnection 
 ```
