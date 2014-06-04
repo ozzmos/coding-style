@@ -8,23 +8,23 @@ Use 4 spaces per indentation level.
 
 ### Naming conventions
 
-variable : lowercase, underscores can be used to improve readability  
+**variable** : lowercase, underscores can be used to improve readability  
 ```
 firstname = "Christophe"
 ```
-function name : lowercase, underscores can be used to improve readability  
+**function name** : lowercase, underscores can be used to improve readability  
 ```
 def show_firstname():
 ```
-class name : use CapWords convention  
+**class name** : use CapWords convention  
 ```
 class UserTest(object):
 ```
-method name : lowercase, underscores can be used to improve readability  
+**method name** : lowercase, underscores can be used to improve readability  
 ```
 def create_user(self):
 ```
-module name : short lowercase name, use of underscores is discouraged  
+**module name** : short lowercase name, use of underscores is discouraged  
 ```
 import busconnection 
 ```
