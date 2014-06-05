@@ -6,6 +6,8 @@ Do not use tabs to indent code.
 
 Use 4 spaces per indentation level.  
 
+### Continuation lines
+
 Continuation lines should align wrapped elemenets vertically.
 
 You can cut long text with an apostrophe
