@@ -10,7 +10,7 @@ Use 4 spaces per indentation level.
 
 **variable** : lowercase, underscores can be used to improve readability  
 ```
-firstname = "Christophe"
+firstname = 'Christophe'
 ```
 **function** : lowercase, underscores can be used to improve readability  
 ```
