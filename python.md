@@ -4,7 +4,28 @@
 
 Do not use tabs to indent code.
 
-Use 4 spaces per indentation level.
+Use 4 spaces per indentation level.  
+
+Continuation lines should align wrapped elemenets vertically.
+
+You can cut long text with an apostrophe
+```
+print('Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Donec a'  
+      ' diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula '
+      ' ac  quam viverra nec consectetur ante hendrerit.')
+```
+
+You can also cut after a colon
+```
+foo = long_function_name(var one, var two,
+                         var three, var four)
+```
+
+Or before a plus sign
+```
+print('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec '
+      + end_of_text)
+```
 
 ### Naming conventions
 
