@@ -2,12 +2,12 @@
 
 ### Table of content
 
-[Indentation]()  
+[Indentation](#indentation)  
 [Maximum line length](#maximum-line-length)  
-[Blank lines]()  
-[Naming conventions]()  
-[Whitespace in expressions and statements]()  
-[Inline comments]()  
+[Blank lines](#blank-lines)  
+[Naming conventions](#naming-conventions)  
+[Whitespace in expressions and statements](#whitespace-in-expressions-and-statements)  
+[Comments](#comments)  
 
 ### Indentation
 
