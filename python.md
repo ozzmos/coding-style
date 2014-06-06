@@ -1,5 +1,14 @@
 ## Python
 
+### Table of content
+
+[Indentation]()  
+[Maximum line length](#maximum-line-length)  
+[Blank lines]()  
+[Naming conventions]()  
+[Whitespace in expressions and statements]()  
+[Inline comments]()  
+
 ### Indentation
 
 Do not use tabs to indent code.
