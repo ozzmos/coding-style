@@ -9,6 +9,7 @@
 [Naming conventions](#naming-conventions)  
 [Whitespace in expressions and statements](#whitespace-in-expressions-and-statements)  
 [Comments](#comments)  
+[References](#references)
 
 ### Indentation
 
@@ -73,8 +74,6 @@ However it's okay to say:
 from subprocess import Popen, PIPE
 ```
 
-
-
 ### Naming conventions
 
 **variable** : lowercase, underscores can be used to improve readability  
@@ -119,6 +118,10 @@ Should be a complete sentence. If a comment is a phrase or a sentence, its first
 
 Use inline comments sparingly  
 Should be separated by at least two spaces from the statement  
+
+### References
+
+[1] PEP 8, Style Guide for Python Code
 
 
 
