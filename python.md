@@ -45,6 +45,35 @@ Class definitions and to-level function are separated by two blank lines.
 
 Method definitions inside a class are separated by a single blank line.  
 
+### Imports
+
+Imports are always put at the top of the file, after modules comments and docstrings and before module globals and constants.  
+
+Imports should be grouped in the following order:  
+1. standard library imports  
+2. related third party imports  
+3. local application/library specific imports  
+
+Each group should be separated by a blank line.  
+
+Do not use relative path but absolute path.   
+```
+from foo.bar.yourclass import YourClass
+```
+
+Import should usually be on a separate lines.  
+```
+import os
+import sys
+```
+
+However it's okay to say:
+```
+from subprocess import Popen, PIPE
+```
+
+
+
 ### Naming conventions
 
 **variable** : lowercase, underscores can be used to improve readability  
