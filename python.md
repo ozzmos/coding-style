@@ -5,6 +5,7 @@
 [Indentation](#indentation)  
 [Maximum line length](#maximum-line-length)  
 [Blank lines](#blank-lines)  
+[Import] (#imports)  
 [Naming conventions](#naming-conventions)  
 [Whitespace in expressions and statements](#whitespace-in-expressions-and-statements)  
 [Comments](#comments)  
