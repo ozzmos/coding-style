@@ -121,7 +121,7 @@ Should be separated by at least two spaces from the statement
 
 ### References
 
-[1] PEP 8, Style Guide for Python Code
+[PEP 8, Style Guide for Python Code] (http://legacy.python.org/dev/peps/pep-0008/) 
 
 
 
