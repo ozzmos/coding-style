@@ -6,8 +6,9 @@ Do not use tabs to indent code.
 
 Use 4 spaces per indentation level.  
 
-### Continuation lines
+### Maximum line length
 
+Limit all lines to a maximum of 79 characters.  
 Continuation lines should align wrapped elemenets vertically.
 
 You can cut long text with an apostrophe
@@ -28,6 +29,12 @@ Or before a plus sign
 print('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec '
       + end_of_text)
 ```
+
+### Blank lines
+
+Class definitions and to-level function are separated by two blank lines.  
+
+Method definitions inside a class are separated by a single blank line.  
 
 ### Naming conventions
 
