@@ -84,7 +84,7 @@ In some fonts these characters are indistinguishable from the numerals one and z
 ```
 firstname = 'John'
 ```
-** global variable**:  lowercase, underscores can be used to improve readability  
+**global variable**:  lowercase, underscores can be used to improve readability  
 Should use the prefix _
 ```
 _lastname = 'Doe'
