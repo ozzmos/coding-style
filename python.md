@@ -119,9 +119,52 @@ Should be a complete sentence. If a comment is a phrase or a sentence, its first
 Use inline comments sparingly  
 Should be separated by at least two spaces from the statement  
 
+#### Block Comments
+
+Block comments generally apply to some(or all) code that follows them, and are indented to the same level as the code. Each line of a block comment starts with a # and a single space.  
+
+Paragraphs inside a block are separated by a line containing a single #.  
+
+### Documentation Strings
+
+A docstring is a string literal that occurs as the first statement in a module, function, class or method definition.
+This becomes the __doc__ attribute of the object.
+
+Docstrings should be written for every public module, function, class or method and describe what it does.  
+A package may be documented in the module docstring of the __init__.py file in the package directory.  
+
+Always use triple double quotes around docstrings.  
+
+One-line docstring:  
+
+```
+def kos_root():
+    """Return the pathname of the KOS root directory."""
+    global _kos_root
+    if _kos_root: return _kos_root
+    ...
+
+```
+
+Multi-line docstring:  
+```
+def complex(real=0.0, imag=0.0):
+    """Form a complex number.
+
+    Keyword arguments:
+    real -- the real part (default 0.0)
+    imag -- the imaginary part (default 0.0)
+    """
+    if imag == 0.0 and real == 0.0:
+        return complex_zero
+    ...
+```
+
+
 ### References
 
 [PEP 8, Style Guide for Python Code] (http://legacy.python.org/dev/peps/pep-0008/) 
+[PEP 257, Docstring Conventions] (http://legacy.python.org/dev/peps/pep-0257/)
 
 
 
