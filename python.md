@@ -163,7 +163,7 @@ def complex(real=0.0, imag=0.0):
 
 ### References
 
-[PEP 8, Style Guide for Python Code] (http://legacy.python.org/dev/peps/pep-0008/) 
+[PEP 8, Style Guide for Python Code] (http://legacy.python.org/dev/peps/pep-0008/)  
 [PEP 257, Docstring Conventions] (http://legacy.python.org/dev/peps/pep-0257/)
 
 
