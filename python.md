@@ -82,19 +82,24 @@ In some fonts these characters are indistinguishable from the numerals one and z
 
 **variable** : lowercase, underscores can be used to improve readability  
 ```
-firstname = 'Christophe'
+firstname = 'John'
+```
+** global variable**:  lowercase, underscores can be used to improve readability  
+Should use the prefix _
+```
+_lastname = 'Doe'
 ```
 **function** : lowercase, underscores can be used to improve readability  
 ```
 def show_firstname():
 ```
-**class** : use CapWords convention
+**class** : use CapWords convention  
 ```
-class UserTest(cls):
+class UserTest(object):
 ```
 Classes for internal use have a leading underscore in addition.  
 ```
-class _UserTest(cls):
+class _UserTest(object):
 ```
 **exception** : use CapWords convention with suffix "Error"
 ```
@@ -183,6 +188,5 @@ def complex(real=0.0, imag=0.0):
 [PEP 8, Style Guide for Python Code] (http://legacy.python.org/dev/peps/pep-0008/)  
 [PEP 257, Docstring Conventions] (http://legacy.python.org/dev/peps/pep-0257/)
 
-
-
+[^1] [python-class-inherits-object] (http://stackoverflow.com/questions/4015417/python-class-inherits-object)
 
