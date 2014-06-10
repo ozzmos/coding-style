@@ -125,7 +125,7 @@ Block comments generally apply to some(or all) code that follows them, and are i
 
 Paragraphs inside a block are separated by a line containing a single #.  
 
-### Documentation Strings
+#### Documentation Strings
 
 A docstring is a string literal that occurs as the first statement in a module, function, class or method definition.
 This becomes the __doc__ attribute of the object.
