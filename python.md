@@ -76,6 +76,10 @@ from subprocess import Popen, PIPE
 
 ### Naming conventions
 
+Never use the characters'l'(lowercase letter el), 'O'(uppercase letther oh), or 'I(uppercase letter eye) as single character variable name.  
+
+In some fonts these characters are indistinguishable from the numerals one and zero.  
+
 **variable** : lowercase, underscores can be used to improve readability  
 ```
 firstname = 'Christophe'
@@ -84,9 +88,22 @@ firstname = 'Christophe'
 ```
 def show_firstname():
 ```
-**class** : use CapWords convention  
+**class** : use CapWords convention
 ```
-class UserTest(object):
+class UserTest(cls):
+```
+Classes for internal use have a leading underscore in addition.  
+```
+class _UserTest(cls):
+```
+**exception** : use CapWords convention with suffix "Error"
+```
+class MyExceptionError(Exception):
+      def __init__(self, reason):
+          self.reason = reason
+      
+      def __str__(self):
+          return self.reason
 ```
 **method** : lowercase, underscores can be used to improve readability  
 ```
