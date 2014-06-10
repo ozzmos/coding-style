@@ -99,7 +99,7 @@ import busconnection
 ### Whitespace in expressions and statements
 
 
-One space around an assignement or other operator
+One space around an assignement, augmented assignement(+=,-=,etc.) or other operator(==,<,>,!=,<>,<=,>=,in,not in,is,is not), Booleans(and,or,not).  
 ```
 x = 1
 if x == 4:
