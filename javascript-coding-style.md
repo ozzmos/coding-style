@@ -43,5 +43,32 @@ function test() {
 }
 ```
 
- 
+### Function declarations
 
+All functions should be declared before they are used.  
+
+Inner function should follow the var statement.
+```
+function outer(c, d) {
+    var e = c * d;
+    
+    function inner(a, b) {
+        return (e * a) + b;
+    }
+    
+    return inner(0, 1);
+}
+```
+
+### Whitespace in expressions and statements
+
+One space after a colon.  
+
+No space between the name of a function and the left parenthesis.  
+
+One space between the right parenthesis and the left curly brace.  
+
+```
+function test(a, b) {
+}
+```
