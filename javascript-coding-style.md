@@ -20,6 +20,14 @@ Use 4 spaces per indentation level.
 
 Limit all lines to a maximum of 80 characters.
 
+### Naming conventions
+
+Variables and function should start with a lower case letter.  
+
+Constructor functions should start with a capital letter.  
+
+Global variables should be in all caps.
+
 ### Variable declarations
 
 All variables should be declared before used. JavaScript does not require this, but doing so makes the program easier to read and makes it easier to deect undeclared variables that may become implied globals. Implied global variables should never be used.  
