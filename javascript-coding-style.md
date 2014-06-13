@@ -26,7 +26,11 @@ All variables should be declared before used. JavaScript does not require this, 
 
 The var statements should be the first statements in the function body. Each statement on its own line with his given comment. 
 
-List variable declaration in alphabetical order.
+List variable declaration in alphabetical order.  
+
+Use of global variables should be minimized.  
+
+Implied global variables should never be used. 
 ```
 var a = 5;    // global variable 
 x = 42;       // implied global variable 
@@ -39,6 +43,5 @@ function test() {
 }
 ```
 
-Use of global variables should be minimized.  
-Implied global variables should never be used.  
+ 
 
